@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DQU-Ta-lWo">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Information View Controller-->
+        <scene sceneID="tM0-Oj-h5r">
+            <objects>
+                <viewController storyboardIdentifier="UserInformationViewController" id="c1Q-bM-Xxy" customClass="UserInformationViewController" customModule="P4SignInDrawer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wi3-Vi-F3w">
+                        <rect key="frame" x="0.0" y="0.0" width="873.5" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="alp-2H-fr0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRM-J4-yKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="236"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="lyZ-Uc-VYF">
+            <objects>
+                <tableViewController storyboardIdentifier="SideMenuTableViewController" clearsSelectionOnViewWillAppear="NO" id="bs8-PA-JZt" customClass="SideMenuTableViewController" customModule="P4SignInDrawer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LHk-xh-Kr8">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="j8a-WJ-oPS">
+                                <rect key="frame" x="0.0" y="24.5" width="420" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j8a-WJ-oPS" id="Xrq-BH-Ded">
+                                    <rect key="frame" x="100" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bs8-PA-JZt" id="POF-lM-5td"/>
+                            <outlet property="delegate" destination="bs8-PA-JZt" id="ZBx-vE-cqb"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Zch-0S-QvL"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2NC-KX-eAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="-436"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MUz-ny-tp4">
+            <objects>
+                <navigationController id="MGU-aM-8Ce" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6nH-gy-Xgm">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bs8-PA-JZt" kind="relationship" relationship="rootViewController" id="x59-rL-qwz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLd-d0-GCz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="-436"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="MGP-fE-AcY">
+            <objects>
+                <splitViewController storyboardIdentifier="SplitViewController" modalPresentationStyle="fullScreen" allowDoubleColumnStyle="YES" id="DQU-Ta-lWo" customClass="SplitViewController" customModule="P4SignInDrawer" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="MGU-aM-8Ce" kind="relationship" relationship="masterViewController" id="vjR-WV-KX6"/>
+                        <segue destination="c1Q-bM-Xxy" kind="relationship" relationship="detailViewController" id="6BM-Em-HfN"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wF8-zP-1wI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-786" y="-132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -3,27 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D449AC67CE77A3B1D507573 /* Pods_P4SignInDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31ECFF32790D1016DAB9F7C /* Pods_P4SignInDrawer.framework */; };
+		7F20787226DF687F00613C8B /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F20787126DF687F00613C8B /* UIButtonExtension.swift */; };
 		7F583D9A26DF5AD00066D8C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F583D9926DF5AD00066D8C3 /* AppDelegate.swift */; };
 		7F583D9C26DF5AD00066D8C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F583D9B26DF5AD00066D8C3 /* SceneDelegate.swift */; };
-		7F583D9E26DF5AD00066D8C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F583D9D26DF5AD00066D8C3 /* ViewController.swift */; };
-		7F583DA126DF5AD00066D8C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F583D9F26DF5AD00066D8C3 /* Main.storyboard */; };
 		7F583DA326DF5AD30066D8C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F583DA226DF5AD30066D8C3 /* Assets.xcassets */; };
 		7F583DA626DF5AD30066D8C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F583DA426DF5AD30066D8C3 /* LaunchScreen.storyboard */; };
+		7F583DB726DF5BE10066D8C3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F583DB626DF5BE10066D8C3 /* SignInViewController.swift */; };
+		7F583DB926DF5C030066D8C3 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F583DB826DF5C030066D8C3 /* SignIn.storyboard */; };
+		7F583DBB26DF5FAA0066D8C3 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F583DBA26DF5FAA0066D8C3 /* UITextFieldExtension.swift */; };
+		7F5F2EC426DF7BFE002626E5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F2EC326DF7BFE002626E5 /* SignUpViewController.swift */; };
+		7F5F2EC626DF7CF1002626E5 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F2EC526DF7CF1002626E5 /* SignUp.storyboard */; };
+		7F5F2EC926DF845E002626E5 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F2EC826DF845E002626E5 /* Reusable.swift */; };
+		7FD21A1026E1E1DB004D8171 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD21A0F26E1E1DB004D8171 /* SplitViewController.swift */; };
+		7FD21A1226E1E1F2004D8171 /* Split.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD21A1126E1E1F2004D8171 /* Split.storyboard */; };
+		7FD21A1826E1E33A004D8171 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD21A1726E1E33A004D8171 /* SideMenuTableViewController.swift */; };
+		7FD21A1A26E1E813004D8171 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD21A1926E1E813004D8171 /* UserInformationViewController.swift */; };
+		7FE6D24126E070AA008E171E /* VaridationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24026E070AA008E171E /* VaridationError.swift */; };
+		7FE6D24326E0712F008E171E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24226E0712F008E171E /* Validator.swift */; };
+		7FE6D24526E07257008E171E /* CompositeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24426E07257008E171E /* CompositeValidator.swift */; };
+		7FE6D24726E072FA008E171E /* EmptyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24626E072FA008E171E /* EmptyValidator.swift */; };
+		7FE6D24926E07372008E171E /* PasswordFormatValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24826E07372008E171E /* PasswordFormatValidator.swift */; };
+		7FE6D24B26E07489008E171E /* EmailFormatValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24A26E07489008E171E /* EmailFormatValidator.swift */; };
+		7FE6D24D26E093C2008E171E /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D24C26E093C2008E171E /* EmailValidator.swift */; };
+		7FE6D25226E09565008E171E /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25126E09565008E171E /* PasswordValidator.swift */; };
+		7FE6D25526E0ABC7008E171E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25426E0ABC7008E171E /* User.swift */; };
+		7FE6D25826E0BFD3008E171E /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25726E0BFD3008E171E /* RealmManager.swift */; };
+		7FE6D25A26E0CE44008E171E /* MobileNumberFormatValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25926E0CE44008E171E /* MobileNumberFormatValidator.swift */; };
+		7FE6D25C26E0D15C008E171E /* MobileValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25B26E0D15C008E171E /* MobileValidator.swift */; };
+		7FE6D25F26E0D4B9008E171E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6D25E26E0D4B9008E171E /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171BBF9D9BC7DFDB6ED7953D /* Pods-P4SignInDrawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P4SignInDrawer.debug.xcconfig"; path = "Target Support Files/Pods-P4SignInDrawer/Pods-P4SignInDrawer.debug.xcconfig"; sourceTree = "<group>"; };
+		7F20787126DF687F00613C8B /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		7F583D9626DF5AD00066D8C3 /* P4SignInDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P4SignInDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F583D9926DF5AD00066D8C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F583D9B26DF5AD00066D8C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F583D9D26DF5AD00066D8C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F583DA026DF5AD00066D8C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F583DA226DF5AD30066D8C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F583DA526DF5AD30066D8C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F583DA726DF5AD30066D8C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F583DB626DF5BE10066D8C3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7F583DB826DF5C030066D8C3 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		7F583DBA26DF5FAA0066D8C3 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		7F5F2EC326DF7BFE002626E5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7F5F2EC526DF7CF1002626E5 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		7F5F2EC826DF845E002626E5 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		7FD21A0F26E1E1DB004D8171 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		7FD21A1126E1E1F2004D8171 /* Split.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Split.storyboard; sourceTree = "<group>"; };
+		7FD21A1726E1E33A004D8171 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		7FD21A1926E1E813004D8171 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		7FE6D24026E070AA008E171E /* VaridationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaridationError.swift; sourceTree = "<group>"; };
+		7FE6D24226E0712F008E171E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		7FE6D24426E07257008E171E /* CompositeValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeValidator.swift; sourceTree = "<group>"; };
+		7FE6D24626E072FA008E171E /* EmptyValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyValidator.swift; sourceTree = "<group>"; };
+		7FE6D24826E07372008E171E /* PasswordFormatValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormatValidator.swift; sourceTree = "<group>"; };
+		7FE6D24A26E07489008E171E /* EmailFormatValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailFormatValidator.swift; sourceTree = "<group>"; };
+		7FE6D24C26E093C2008E171E /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		7FE6D25126E09565008E171E /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		7FE6D25426E0ABC7008E171E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7FE6D25726E0BFD3008E171E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		7FE6D25926E0CE44008E171E /* MobileNumberFormatValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberFormatValidator.swift; sourceTree = "<group>"; };
+		7FE6D25B26E0D15C008E171E /* MobileValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileValidator.swift; sourceTree = "<group>"; };
+		7FE6D25E26E0D4B9008E171E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		8543732A34E32DB133BB67F6 /* Pods-P4SignInDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P4SignInDrawer.release.xcconfig"; path = "Target Support Files/Pods-P4SignInDrawer/Pods-P4SignInDrawer.release.xcconfig"; sourceTree = "<group>"; };
+		F31ECFF32790D1016DAB9F7C /* Pods_P4SignInDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P4SignInDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D449AC67CE77A3B1D507573 /* Pods_P4SignInDrawer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000B0B4458355BFBAE4DB60D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31ECFF32790D1016DAB9F7C /* Pods_P4SignInDrawer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F583D8D26DF5AD00066D8C3 = {
 			isa = PBXGroup;
 			children = (
 				7F583D9826DF5AD00066D8C3 /* P4SignInDrawer */,
 				7F583D9726DF5AD00066D8C3 /* Products */,
+				8E5EB1D74B74A5B99A4D833A /* Pods */,
+				000B0B4458355BFBAE4DB60D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +115,166 @@
 		7F583D9826DF5AD00066D8C3 /* P4SignInDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				7F583D9926DF5AD00066D8C3 /* AppDelegate.swift */,
-				7F583D9B26DF5AD00066D8C3 /* SceneDelegate.swift */,
-				7F583D9D26DF5AD00066D8C3 /* ViewController.swift */,
-				7F583D9F26DF5AD00066D8C3 /* Main.storyboard */,
+				7F583DB326DF5B590066D8C3 /* Application */,
+				7F5F2EC726DF8420002626E5 /* Protocol */,
+				7F583DB226DF5B500066D8C3 /* Utility */,
+				7F583DB126DF5B470066D8C3 /* Model */,
+				7F583DAF26DF5B370066D8C3 /* View */,
+				7F583DAE26DF5B130066D8C3 /* Controller */,
+				7F583DAD26DF5B0B0066D8C3 /* Extension */,
 				7F583DA226DF5AD30066D8C3 /* Assets.xcassets */,
-				7F583DA426DF5AD30066D8C3 /* LaunchScreen.storyboard */,
 				7F583DA726DF5AD30066D8C3 /* Info.plist */,
 			);
 			path = P4SignInDrawer;
+			sourceTree = "<group>";
+		};
+		7F583DAD26DF5B0B0066D8C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F583DBA26DF5FAA0066D8C3 /* UITextFieldExtension.swift */,
+				7F20787126DF687F00613C8B /* UIButtonExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7F583DAE26DF5B130066D8C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F583DB626DF5BE10066D8C3 /* SignInViewController.swift */,
+				7F5F2EC326DF7BFE002626E5 /* SignUpViewController.swift */,
+				7FD21A0F26E1E1DB004D8171 /* SplitViewController.swift */,
+				7FD21A1726E1E33A004D8171 /* SideMenuTableViewController.swift */,
+				7FD21A1926E1E813004D8171 /* UserInformationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7F583DAF26DF5B370066D8C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F583DB026DF5B3C0066D8C3 /* Screen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F583DB026DF5B3C0066D8C3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7F583DA426DF5AD30066D8C3 /* LaunchScreen.storyboard */,
+				7F583DB826DF5C030066D8C3 /* SignIn.storyboard */,
+				7F5F2EC526DF7CF1002626E5 /* SignUp.storyboard */,
+				7FD21A1126E1E1F2004D8171 /* Split.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7F583DB126DF5B470066D8C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D25D26E0D4AE008E171E /* Logic */,
+				7FE6D25626E0BFC2008E171E /* Manager */,
+				7FE6D25326E0ABBA008E171E /* Entity */,
+				7FE6D23E26E07069008E171E /* Error */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F583DB226DF5B500066D8C3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7F583DB326DF5B590066D8C3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7F583D9926DF5AD00066D8C3 /* AppDelegate.swift */,
+				7F583D9B26DF5AD00066D8C3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7F5F2EC726DF8420002626E5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7F5F2EC826DF845E002626E5 /* Reusable.swift */,
+				7FE6D24226E0712F008E171E /* Validator.swift */,
+				7FE6D24426E07257008E171E /* CompositeValidator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7FE6D23E26E07069008E171E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D24026E070AA008E171E /* VaridationError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		7FE6D23F26E0708D008E171E /* Varidation */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D24F26E09544008E171E /* FormatVaridator */,
+				7FE6D24E26E0943B008E171E /* Varidators */,
+			);
+			path = Varidation;
+			sourceTree = "<group>";
+		};
+		7FE6D24E26E0943B008E171E /* Varidators */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D24C26E093C2008E171E /* EmailValidator.swift */,
+				7FE6D25126E09565008E171E /* PasswordValidator.swift */,
+				7FE6D25B26E0D15C008E171E /* MobileValidator.swift */,
+			);
+			path = Varidators;
+			sourceTree = "<group>";
+		};
+		7FE6D24F26E09544008E171E /* FormatVaridator */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D24626E072FA008E171E /* EmptyValidator.swift */,
+				7FE6D24A26E07489008E171E /* EmailFormatValidator.swift */,
+				7FE6D24826E07372008E171E /* PasswordFormatValidator.swift */,
+				7FE6D25926E0CE44008E171E /* MobileNumberFormatValidator.swift */,
+			);
+			path = FormatVaridator;
+			sourceTree = "<group>";
+		};
+		7FE6D25326E0ABBA008E171E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D25426E0ABC7008E171E /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7FE6D25626E0BFC2008E171E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D25726E0BFD3008E171E /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7FE6D25D26E0D4AE008E171E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7FE6D25E26E0D4B9008E171E /* Alert.swift */,
+				7FE6D23F26E0708D008E171E /* Varidation */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8E5EB1D74B74A5B99A4D833A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				171BBF9D9BC7DFDB6ED7953D /* Pods-P4SignInDrawer.debug.xcconfig */,
+				8543732A34E32DB133BB67F6 /* Pods-P4SignInDrawer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F583DAA26DF5AD30066D8C3 /* Build configuration list for PBXNativeTarget "P4SignInDrawer" */;
 			buildPhases = (
+				F2374620FB6A3B1679C55D67 /* [CP] Check Pods Manifest.lock */,
 				7F583D9226DF5AD00066D8C3 /* Sources */,
 				7F583D9326DF5AD00066D8C3 /* Frameworks */,
 				7F583D9426DF5AD00066D8C3 /* Resources */,
+				F2964721C8A249119CE94C13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +315,7 @@
 				};
 			};
 			buildConfigurationList = 7F583D9126DF5AD00066D8C3 /* Build configuration list for PBXProject "P4SignInDrawer" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,34 +339,90 @@
 			files = (
 				7F583DA626DF5AD30066D8C3 /* LaunchScreen.storyboard in Resources */,
 				7F583DA326DF5AD30066D8C3 /* Assets.xcassets in Resources */,
-				7F583DA126DF5AD00066D8C3 /* Main.storyboard in Resources */,
+				7FD21A1226E1E1F2004D8171 /* Split.storyboard in Resources */,
+				7F5F2EC626DF7CF1002626E5 /* SignUp.storyboard in Resources */,
+				7F583DB926DF5C030066D8C3 /* SignIn.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2374620FB6A3B1679C55D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P4SignInDrawer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2964721C8A249119CE94C13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P4SignInDrawer/Pods-P4SignInDrawer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P4SignInDrawer/Pods-P4SignInDrawer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P4SignInDrawer/Pods-P4SignInDrawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F583D9226DF5AD00066D8C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F583D9E26DF5AD00066D8C3 /* ViewController.swift in Sources */,
+				7FE6D24526E07257008E171E /* CompositeValidator.swift in Sources */,
+				7F5F2EC426DF7BFE002626E5 /* SignUpViewController.swift in Sources */,
+				7F583DB726DF5BE10066D8C3 /* SignInViewController.swift in Sources */,
+				7FE6D24D26E093C2008E171E /* EmailValidator.swift in Sources */,
+				7FE6D25A26E0CE44008E171E /* MobileNumberFormatValidator.swift in Sources */,
+				7FE6D25526E0ABC7008E171E /* User.swift in Sources */,
+				7F20787226DF687F00613C8B /* UIButtonExtension.swift in Sources */,
+				7FE6D25C26E0D15C008E171E /* MobileValidator.swift in Sources */,
+				7FD21A1026E1E1DB004D8171 /* SplitViewController.swift in Sources */,
+				7FD21A1A26E1E813004D8171 /* UserInformationViewController.swift in Sources */,
+				7FE6D25826E0BFD3008E171E /* RealmManager.swift in Sources */,
+				7FE6D24926E07372008E171E /* PasswordFormatValidator.swift in Sources */,
+				7FE6D24B26E07489008E171E /* EmailFormatValidator.swift in Sources */,
+				7FE6D25226E09565008E171E /* PasswordValidator.swift in Sources */,
+				7FE6D24126E070AA008E171E /* VaridationError.swift in Sources */,
+				7F583DBB26DF5FAA0066D8C3 /* UITextFieldExtension.swift in Sources */,
+				7FE6D24726E072FA008E171E /* EmptyValidator.swift in Sources */,
 				7F583D9A26DF5AD00066D8C3 /* AppDelegate.swift in Sources */,
+				7FE6D24326E0712F008E171E /* Validator.swift in Sources */,
 				7F583D9C26DF5AD00066D8C3 /* SceneDelegate.swift in Sources */,
+				7FE6D25F26E0D4B9008E171E /* Alert.swift in Sources */,
+				7F5F2EC926DF845E002626E5 /* Reusable.swift in Sources */,
+				7FD21A1826E1E33A004D8171 /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F583D9F26DF5AD00066D8C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F583DA026DF5AD00066D8C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F583DA426DF5AD30066D8C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +552,7 @@
 		};
 		7F583DAB26DF5AD30066D8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171BBF9D9BC7DFDB6ED7953D /* Pods-P4SignInDrawer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,7 +564,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,12 +575,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		7F583DAC26DF5AD30066D8C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8543732A34E32DB133BB67F6 /* Pods-P4SignInDrawer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,7 +593,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,7 +604,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
